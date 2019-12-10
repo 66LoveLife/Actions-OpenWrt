@@ -13,3 +13,4 @@ git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app
 git clone https://github.com/rosywrt/luci-theme-rosy package/luci-theme-rosy
 git clone https://github.com/rosywrt/luci-theme-purple package/luci-theme-purple
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+git clone https://github.com/vernesong/OpenClash package/OpenClash
