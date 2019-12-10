@@ -12,3 +12,4 @@ git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverc
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 git clone https://github.com/rosywrt/luci-theme-rosy package/luci-theme-rosy
 git clone https://github.com/rosywrt/luci-theme-purple package/luci-theme-purple
+git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
