@@ -19,7 +19,7 @@ sed -i "s/UTC/CST-8/g" ./package/base-files/files/bin/config_generate
 sed -i "/CST-8/a set system.@system[-1].zonename='Asia/Shanghai'" ./package/base-files/files/bin/config_generate 
 # set root password(default: password)
 echo "Set root password(default: password)"
-sed -i 's|root.*|root:$1$pFEtE/6h$4s9J0gQfhU9wnfjnSTH5m.:18243:0:99999:7:::|g' ./package/base-files/files/etc/shadow
+sed -i 's|root.*|root:password' ./package/base-files/files/etc/shadow
 #LUCI
 git clone https://github.com/Ameykyl/luci-app-koolproxyR package/luci-app-koolproxyR
 git clone https://github.com/tty228/luci-app-serverchan package/luci-app-serverchan
