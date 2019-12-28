@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 # Modify default IP
-#sed -i 's/192.168.1.1/192.168.50.5/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.2.1/192.168.50.5/g' package/base-files/files/bin/config_generate
 # NTP
 echo "Settinng NTP Server"
 sed -i "s/0.openwrt.pool.ntp.org/ntp1.aliyun.com/g" ./package/base-files/files/bin/config_generate
@@ -28,3 +28,4 @@ git clone https://github.com/rosywrt/luci-theme-rosy package/luci-theme-rosy
 git clone https://github.com/rosywrt/luci-theme-purple package/luci-theme-purple
 git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone https://github.com/vernesong/OpenClash package/OpenClash
+git clone https://github.com/tindy2013/openwrt-subconverter package/openwrt-subconverter
